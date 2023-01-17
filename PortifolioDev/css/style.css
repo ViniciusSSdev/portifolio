@@ -121,7 +121,9 @@ header {
   top: 30%;
   left: 15%;
 }
-
+.banner button a {
+  color: white;
+}
 .banner h1 {
   color: #ffffff;
   font-size: 3.5rem;
