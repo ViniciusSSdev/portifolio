@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=-29.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Portifólio</title>
+    <script>
+      function enviou(form) {
+      Swal.fire({
+        icon: 'success',
+        text: 'Enviado com Sucesso',
+        showCancelButton: false,
+        showConfirmButton: false,
+      })
+} 
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>fechar</span>
+        </div>
+        <header id="home">
+            <div class="img-wrapper">
+            <img src="img/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer & Front End Designer</h1>
+                <p>Vinicius Souza</p>
+                <button class="btn">Saiba mais</a></button>
+                
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/vinicius-souza-santos-181bb8225"><i class="fab fa-linkedin"></i></a>
+                <a href="hhttps://github.com/ViniciusSSdev"><i class="fab fa-github-alt"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+              <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-html5"></i>
+                  <h1>HTML</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>O HTML é um conjunto de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-css3-alt"></i>
+                  <h1>CSS</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-pencil-alt"></i>
+                  <h1>Design</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>É o desenvolvimento de produtos, normalmente produzidos industrialmente ou por meio de sistema de produção em série que demanda padronização dos componentes e desenho normalizado.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-js"></i>
+                  <h1>Javascript</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>É uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS.
+                  </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-vuejs"></i>
+                  <h1>Vue JS</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Vue JS é um framework progressivo para a construção de interfaces de usuário.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-github"></i>
+                  <h1>Git e GitHub</h1>
+                </div>
+                <div class="conhecimento-text">
+                  <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo</p>
+                </div>
+              </div>
+              <div class="conhecimento-img-wrapper">
+                <img src="img/conhecimentos.png" alt="imagem conhecimento">
+              </div>
+            </div>
+          </section>
+
+          <div class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+              <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/img5.jpg" alt="imagem do projeto ToDo" />
+                </div>
+                <div class="card-info">
+                  <h2>Sistema Academia</h2>
+                  <h3>HTML e CSS</h3>
+                  <p>Lading page simples para estudo de responsividade e estilização</p>
+                  <button class="btn"><a href="landing-page-gym-dun.vercel.app">Saiba mais</a></button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/img6.png" alt="imagem do projeto ToDo" />
+                </div>
+                <div class="card-info">
+                  <h2>Buscador de Ce</h2>
+                  <h3>React Native</h3>
+                  <p>Sistema que consome API do Viacep, utilizado para estudo em react</p>
+                  <button class="btn"><a href="search-cep-pi.vercel.app">Saiba mais</a></button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/img7.png" alt="imagem do projeto ToDo" />
+                </div>
+                <div class="card-info">
+                  <h2>Sistema de Vendas</h2>
+                  <h3>Javascript</h3>
+                  <p>É uma aplicação para auxiliar no gerenciamento de vendas de Bicicleta</p>
+                  <button class="btn"><a href="resposive-landingpage.vercel.app">Saiba mais</a></button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <section class="sessao-contato"  id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Contato</h1>
+              <form onsubmit="enviou();" method="POST" action="https://formsubmit.co/viniciusdev04@gmail.com">
+               <div class="input-group">
+                <input type="text" name="name" class="field" id="nome" required>
+                <label class="field-label" for="nome">Nome</label>
+               </div>
+               <div class="input-group">
+                <input type="email" name="email" class="field" id="email" required>
+                <label class="field-label" tyo for="email">E-mail</label>
+               </div>
+               <div class="input-group">
+                <textarea type="text" name="message" class="field" id="mensagem"></textarea>
+                <label class="field-label" for="mensagem">Mensagem</label>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://github.com/ViniciusSSdev/">
+              </div>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2023, Vinicius Souza - Todos os direitos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.facebook.com/#/"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/eu_viniciussantos/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</body>
+<scripts src="custom.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</html>
